@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate Money</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b5487036d6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="money">Calculate Money <i class="fas fa-money-bill"></i></h1>
+    </header>
+    <main>
+        <div class="all-component">
+            <!-- image-section -->
+            <div class="money-img">
+                <img src="./calculate-money.jpg" alt="">
+            </div>
+            <!-- input-section -->
+            <div class="input-field">
+                <h3>Income</h3>
+                <div class="inpute-style mt-1">
+                    <h5>Income:</h3>
+                        <input id="income-input" type="text" placeholder="$" name="" id="">
+                </div>
+                <!-- expenses-section -->
+                <div class="mt-4">
+                    <h3>Expenses</h3>
+                    <div class="inpute-style mt-2">
+                        <h5>Food:</h3>
+                            <input id="food-input" type="text" placeholder="$" name="" id="">
+                    </div>
+                    <div class="inpute-style mt-2">
+                        <h5>Rent: </h3>
+                            <input id="rent-input" type="text" placeholder="$" name="" id="">
+                    </div>
+                    <div class="inpute-style mt-2">
+                        <h5>Clothes: </h3>
+                            <input id="clothes-input" type="text" placeholder="$" name="" id="">
+                    </div>
+                </div>
+                <button id="calculate-button" class="button mt-3">Calculate</button>
+                <h3 class="mt-3">Total Expenses: <span id="expense-total">00</span></h3>
+                <h3>Balance: <span id="balance-total">00</span></h3>
+                <!-- saving-section -->
+                <div class="save mt-4 mb-4">
+                    <h5>Save: </h5>
+                    <input id="save-input" type="number" name="" id="">
+                    <h5> % </h5>
+                    <button id="save-button" class="button">Save</button>
+                </div>
+                <h3>Saving Amount: <span id="amount-save">00</span></h3>
+                <h3>Remaining Balance: <span id="balance-remain">00</span></h3>
+            </div>
+        </div>
+    </main>
+    <script src="./app.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

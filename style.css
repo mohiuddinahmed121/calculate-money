@@ -1,0 +1,65 @@
+/* heading-style */
+
+.money {
+    text-align: center;
+    color: rgb(50, 175, 133);
+}
+
+.all-component {
+    display: flex;
+}
+
+/* input-section */
+
+.input-field {
+    border: 10px;
+    width: 400px;
+    /* padding: 20px; */
+    text-align: center;
+
+}
+
+.inpute-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* saving section */
+
+.save {
+
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* button-section */
+
+.button {
+    background-color: rgb(114, 162, 241);
+    color: rgb(239, 232, 232);
+    border-radius: 3px;
+}
+
+/* responsive website layout */
+
+@media (max-width: 688px) {
+    .money {
+        text-align: center;
+    }
+
+    .money-img img {
+        width: 400px;
+        margin-top: 20px;
+    }
+
+    .all-component {
+        flex-direction: column;
+    }
+
+    .input-field {
+        margin-top: 30px;
+    }
+}
